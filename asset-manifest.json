@@ -1,23 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab7136cd.chunk.css",
-    "main.js": "/static/js/main.e957742a.chunk.js",
-    "main.js.map": "/static/js/main.e957742a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.b24c2c4a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.b24c2c4a.js.map",
-    "static/js/2.f31347fc.chunk.js": "/static/js/2.f31347fc.chunk.js",
-    "static/js/2.f31347fc.chunk.js.map": "/static/js/2.f31347fc.chunk.js.map",
-    "static/js/3.4c6cee69.chunk.js": "/static/js/3.4c6cee69.chunk.js",
-    "static/js/3.4c6cee69.chunk.js.map": "/static/js/3.4c6cee69.chunk.js.map",
+    "main.css": "/static/css/main.ffdb5c18.css",
+    "main.js": "/static/js/main.2ec28f54.js",
+    "static/js/787.b5d8aac1.chunk.js": "/static/js/787.b5d8aac1.chunk.js",
+    "static/media/holo.png": "/static/media/holo.1c40dcd35c0b78eb1dd0.png",
+    "static/media/Art-Net.png": "/static/media/Art-Net.dc6e7aa6c58675bd4e7b.png",
+    "static/media/spmodel-importer.png": "/static/media/spmodel-importer.0ad058e4f1e843f465a9.png",
+    "static/media/icon.png": "/static/media/icon.1de887617f0ff252eb66.png",
     "index.html": "/index.html",
-    "static/css/main.ab7136cd.chunk.css.map": "/static/css/main.ab7136cd.chunk.css.map",
-    "static/js/2.f31347fc.chunk.js.LICENSE.txt": "/static/js/2.f31347fc.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "main.ffdb5c18.css.map": "/static/css/main.ffdb5c18.css.map",
+    "main.2ec28f54.js.map": "/static/js/main.2ec28f54.js.map",
+    "787.b5d8aac1.chunk.js.map": "/static/js/787.b5d8aac1.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.b24c2c4a.js",
-    "static/js/2.f31347fc.chunk.js",
-    "static/css/main.ab7136cd.chunk.css",
-    "static/js/main.e957742a.chunk.js"
+    "static/css/main.ffdb5c18.css",
+    "static/js/main.2ec28f54.js"
   ]
 }

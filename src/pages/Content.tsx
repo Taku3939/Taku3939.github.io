@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../components/Layout";
 //import Styles from "./Content.module.scss";
 //import imgUrl from "../imgs/holo.png";
-import { Row, Col, Container } from "react-bootstrap/esm";
+import { Row, Col, Container } from "react-bootstrap";
 import ContentCard, { CardParam } from "../components/ContentCard";
 
 import ImgHolo from "../imgs/holo.png";

@@ -1,12 +1,14 @@
 import React from "react";
 import Header from "./Header";
+import Footer from "./Footer"
 import Styles from "./Layout.module.scss";
 
 const Layout = ({ children }: any) => {
   return (
     <div className={Styles.layout}>
       <Header />
-      <div className={Styles.content}>{children}</div>
+      <div>{children}</div>
+      <Footer/>
     </div>
   );
 };

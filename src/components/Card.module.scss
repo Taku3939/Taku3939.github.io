@@ -1,0 +1,24 @@
+.box{
+    height: 25rem;
+    // width: 18rem;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.viewButton {
+    color: aliceblue;
+    background-color: rgb(29, 29, 32);
+    a {
+        color: whitesmoke;
+    }
+}
+.viewButton:hover{
+    color: red;
+    background-color: white;
+    a {
+        color: black;
+    }
+}

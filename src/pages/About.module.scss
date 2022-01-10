@@ -1,8 +1,109 @@
+$size: 160px;
+
+
+
+.item {
+  padding: 100px;
+  font-family: 'Roboto', sans-serif;
+
+  .title {
+    color: rgba(38, 38, 40, 0.72);
+  }
+}
+
+@keyframes moveUp {
+  from {
+    opacity: 0%;
+    transform: translateY(100px);
+  }
+
+  to {
+    opacity: 100%;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes moveDown {
+  from {
+    opacity: 0%;
+    transform: translateY(-100px);
+  }
+
+  to {
+    opacity: 100%;
+    transform: translateY(0px);
+  }
+}
+
+
+@keyframes moveLine {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 100%;
+
+  }
+}
+
+.content_1 {
+  padding: 150px;
+  height: 100vh;
+  background-color: whitesmoke;
+
+  /* 0の位置からy軸に200px動くことが書かれてる */
+
+
+  hr {
+    height: 5px;
+    //size: 200px;
+    animation-name: moveLine;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    //animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    width: 100%;
+  }
+
+  .title {
+    font-size: 60px;
+    animation-name: moveUp;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    //animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+  }
+
+  .subTitle {
+    animation-name: moveDown;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
+    //animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+  }
+}
+
+.content_2 {
+  //background-color: azure;
+
+  height: 50vh;
+  background: linear-gradient(45deg, #f0bc68 0%, #f0bc68 50%, #c4d7d1 50%, #c4d7d1 100%);
+
+}
+
+.content_3 {
+  height: 50vh;
+  background-color: #f2f6f6;
+
+
+}
 
 .icon {
-  width: 100px;
-  height:100px;
-  border-radius:50%;
-  backgroud-position:"center";
+  //position: center;
+  width: $size;
+  height: $size;
+  border-radius: 50%;
+  background-position: center;
   background-image: url("../imgs/icon.png");
 }

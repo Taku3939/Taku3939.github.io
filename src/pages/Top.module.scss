@@ -1,14 +1,15 @@
 $size: 160px;
-
-
-
 .item {
-  padding: 100px;
-  font-family: 'Roboto', sans-serif;
-
-  .title {
-    color: rgba(38, 38, 40, 0.72);
+  @media screen and (min-width: 800px) {
+    padding: 150px;
   }
+  @media screen and (max-width: 800px) {
+    padding: 100px;
+  }
+
+  //.title {
+  //  color: rgba(38, 38, 40, 0.72);
+  //}
 }
 
 @keyframes moveUp {
@@ -48,8 +49,8 @@ $size: 160px;
 }
 
 .content_1 {
-  padding: 150px;
-  height: 100vh;
+  //padding: 150px;
+  height: 60vh;
   background-color: whitesmoke;
 
   /* 0の位置からy軸に200px動くことが書かれてる */
@@ -84,12 +85,74 @@ $size: 160px;
   }
 }
 
+@keyframes contentBg {
+  //from {
+  //  background: rgb(71, 71, 71)
+  //}
+  //to{
+  //  background: linear-gradient(45deg, rgb(71, 71, 71) 0%, #5e5e5e 50%, #bdbdbd 50%, #f6f6f6 100%);
+  //
+  //}
+}
+
+@-webkit-keyframes animate1 {
+  0% {
+    background-position: 10% 0%
+  }
+  50% {
+    background-position: 91% 100%
+  }
+  100% {
+    background-position: 10% 0%
+  }
+}
+
+@-moz-keyframes animate1 {
+  0% {
+    background-position: 10% 0%
+  }
+  50% {
+    background-position: 91% 100%
+  }
+  100% {
+    background-position: 10% 0%
+  }
+}
+
+/* Standard syntax */
+@keyframes animate1 {
+  0% {
+    background-position: 200px 200px
+  }
+  100% {
+    background-position: 0px 0px
+  }
+}
+
+
 .content_2 {
-  //background-color: azure;
+  a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
 
-  height: 50vh;
-  background: linear-gradient(45deg, #f0bc68 0%, #f0bc68 50%, #c4d7d1 50%, #c4d7d1 100%);
+  background: linear-gradient(45deg, rgb(71, 71, 71) 0%, #5e5e5e 50%, #bdbdbd 50%, #f6f6f6 100%);
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
 
+  -webkit-animation: animate1 2s ease;
+  -moz-animation: animate1 2s ease;
+  animation: animate1 2s ease;
+
+  height: 40vh;
+
+  .left {
+    color: rgb(255, 255, 255);
+  }
+
+  .right {
+    color: #363636;
+  }
 }
 
 .content_3 {

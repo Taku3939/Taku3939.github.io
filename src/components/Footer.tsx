@@ -2,10 +2,11 @@ import React from "react";
 
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Styles from "./Footer.module.scss";
 
 export default function Footer() {
   return (
-    <footer className="footer text-center">
+    <footer className={`text-center ${Styles.footer}`}>
       <ul className="list-inline mb-5">
         <li className="list-inline-item">
           &nbsp;

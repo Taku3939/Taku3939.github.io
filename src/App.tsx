@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<About />} />
+        <Route path="/" element={<Top />} />
         <Route path="/about" element={<About />} />
         <Route path="/content" element={<Content />} />
         <Route path="/page/artnet_receiver" element={<ArtNetPage />}/>
